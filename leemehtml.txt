@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Soluciones Contables – JD Consultores & Financieras</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!-- NAVBAR CON SCROLL SPY -->
+<nav>
+  <div class="logo">JD</div>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio<span class="nav-indicator"></span></a></li>
+    <li><a href="#nosotros">Nosotros<span class="nav-indicator"></span></a></li>
+    <li><a href="#servicios">Servicios<span class="nav-indicator"></span></a></li>
+    <li><a href="#sectores">Sectores<span class="nav-indicator"></span></a></li>
+    <li><a href="#equipo">Equipo<span class="nav-indicator"></span></a></li>
+    <li><a href="#proceso">Proceso<span class="nav-indicator"></span></a></li>
+    <li><a href="#faq">FAQ<span class="nav-indicator"></span></a></li>
+    <li><a href="#galeria">Galería<span class="nav-indicator"></span></a></li>
+    <li><a href="#contacto">Contacto<span class="nav-indicator"></span></a></li>
+  </ul>
+  <button class="btn-nav" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contáctenos</button>
+</nav>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge" id="heroBadge">SERVICIOS CONTABLES &amp; FINANCIEROS</div>
+    <h1 class="hero-title" id="heroTitle">Soluciones Contables <em>de<br>Confianza</em></h1>
+    <p class="hero-sub" id="heroSub">Brindamos servicios de contabilidad, auditoría y asesoría fiscal a empresas de todos los sectores, con profesionalismo, precisión y transparencia.</p>
+    <div class="hero-btns" id="heroBtns">
+      <a href="#servicios" class="btn-primary">Conocer Servicios</a>
+      <a href="#contacto" class="btn-outline">Contáctenos</a>
+    </div>
+  </div>
+  <div class="hero-stats" id="heroStats">
+    <div class="stat-item"><div class="stat-number" id="stat1">0</div><div class="stat-label">Años de experiencia</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat2">0</div><div class="stat-label">Clientes atendidos</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat3">0</div><div class="stat-label">Servicios</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat4">0</div><div class="stat-label">Sectores</div></div>
+  </div>
+  
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="ab-photo" id="nosotrosPhoto">
+    <div class="ab-main-photo">
+      <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700&q=80" alt="Equipo JD Consultores">
+      <div class="ab-photo-overlay"></div>
+    </div>
+    <div class="ab-badge-top">Estudio Contable Certificado<span>Piura, Perú</span></div>
+    <div class="ab-caption"><p class="ab-quote">"La excelencia no es un destino, es una forma permanente de trabajar."</p><p class="ab-attr">— Filosofía JD Consultores</p></div>
+    <div class="ab-float"><div class="ab-float-n" id="yearsCounter">+0</div><div class="ab-float-l">Años de trayectoria</div></div>
+  </div>
+  <div class="ab-right" id="nosotrosText">
+    <div class="section-eyebrow">Quiénes somos</div>
+    <h2>Experiencia que genera confianza.</h2>
+    <p class="s-sub">Somos un equipo de contadores y asesores con más de 10 años acompañando a empresarios peruanos en la gestión contable, tributaria y gerencial de sus negocios.</p>
+    <ul class="ab-list">
+       <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">En JD Yovera y Asociados encuentras soluciones y asesoría con experiencia para la correcta gestió contable y tributaria de tu empresa</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Asesoría confiable y personalizada</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Cumplimiento normativo tributario</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Informacion contable financiera para la toma de decisiones</div></li>
+     
+      
+    </ul>
+    <a href="#contacto" class="btn-primary">Contáctanos hoy →</a>
+  </div>
+</section>
+
+<!-- SERVICIOS CON IMÁGENES DE FONDO -->
+<section id="servicios">
+  <div class="section-header" id="serviciosHeader">
+    <div class="section-eyebrow">LO QUE OFRECEMOS</div>
+    <h2 class="section-title">Soluciones <br>Contables y <em>tributarias</em></h2>
+    <p>Soluciones contables y tributarias para impulsar el crecimiento de su empresa.</p>
+  </div>
+  <div class="services-grid">
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&q=80');"><div class="service-number">01</div><div class="service-icon"><i class="fas fa-file-invoice"></i></div><h3 style="text-align: center;">Contabilidad integral y libros <br>electronicos PLE - SIRE </h3><p>Registro y análisis de transacciones financieras.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">INTEGRAL</div><h4>Contabilidad General</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Libros PLE y SIRE</li><li><i class="fas fa-check-circle"></i> Estados financieros</li></ul><a href="#contacto" class="back-link">VER DETALLE →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80');"><div class="service-number">02</div><div class="service-icon"><i class="fas fa-search-dollar"></i></div><h3>Declaraciones Mensuales y Anuales</h3><p>Examinamos estados financieros con precisión.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">ASEGURAMIENTO</div><h4>Auditoría</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Auditoría externa</li><li><i class="fas fa-check-circle"></i> Control interno</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&q=80');"><div class="service-number">03</div><div class="service-icon"><i class="fas fa-landmark"></i></div><h3>Asesoría en Fiscalizaciones SUNAT</h3><p>Optimización tributaria y cumplimiento SUNAT.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">TRIBUTARIO</div><h4>Asesoría Fiscal</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Declaraciones mensuales</li><li><i class="fas fa-check-circle"></i> Planificación tributaria</li></ul><a href="#contacto" class="back-link">VER DETALLE →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&q=80');"><div class="service-number">04</div><div class="service-icon"><i class="fas fa-users"></i></div><h3 style="text-align: center;">Constitución y Formalización de empresas</h3><p>Gestión integral de planillas y beneficios.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">LABORAL</div><h4>Nómina y RRHH</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Planillas electrónicas</li><li><i class="fas fa-check-circle"></i> CTS y gratificaciones</li></ul><a href="#contacto" class="back-link">VER DETALLE →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80');"><div class="service-number">05</div><div class="service-icon"><i class="fas fa-chart-line"></i></div><h3 style="text-align: center;">Asesoría financiera y tributaria permanente</h3><p>Análisis de rentabilidad y proyecciones.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">ESTRATEGIA</div><h4>Consultoría Financiera</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Análisis de KPIs</li><li><i class="fas fa-check-circle"></i> Proyecciones financieras</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80');"><div class="service-number">06</div><div class="service-icon"><i class="fas fa-file-contract"></i></div><h3>Planificación Tributaria</h3><p>Optimización fiscal y beneficios legales.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">ESTRATEGIA FISCAL</div><h4>Planificación Tributaria</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Optimización de carga fiscal</li><li><i class="fas fa-check-circle"></i> Beneficios fiscales</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+  </div>
+</section>
+
+<!-- SECTORES CON IMÁGENES -->
+<section id="sectores">
+  <div class="sectores-header" id="sectoresHeader">
+    <div class="section-eyebrow">A QUIÉNES ATENDEMOS</div>
+    <h2 class="section-title">Sectores <em>Atendidos</em></h2>
+    <p>Experiencia en diversas industrias para anticipar las necesidades específicas de tu rubro.</p>
+  </div>
+  <div class="sec-grid" id="sectoresGrid">
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=80" alt="Construcción"></div><div class="sec-body"><div class="sec-tag">Construcción</div><div class="sec-title">Construcción e Inmobiliaria</div><p class="sec-desc">Costos de obra, detracciones, regímenes especiales.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&q=80" alt="Comercio"></div><div class="sec-body"><div class="sec-tag">Comercio</div><div class="sec-title">Comercio y Retail</div><p class="sec-desc">Inventarios, facturación electrónica, márgenes.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80" alt="Restaurantes"></div><div class="sec-body"><div class="sec-tag">Gastronomía</div><div class="sec-title">Restaurantes y Gastronomía</div><p class="sec-desc">Percepciones, costos de insumos, planilla.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&q=80" alt="Servicios"></div><div class="sec-body"><div class="sec-tag">Servicios</div><div class="sec-title">Empresas de Servicios</div><p class="sec-desc">Contratos, facturación, rentas de cuarta y quinta.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" alt="Educación"></div><div class="sec-body"><div class="sec-tag">Educación</div><div class="sec-title">Educación y ONGs</div><p class="sec-desc">Exoneraciones tributarias, donaciones.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80" alt="Transporte"></div><div class="sec-body"><div class="sec-tag">Transporte</div><div class="sec-title">Transporte y Logística</div><p class="sec-desc">Detracciones, activos fijos de flota.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=80" alt="Agroindustria"></div><div class="sec-body"><div class="sec-tag">Agroindustria</div><div class="sec-title">Agroindustria</div><p class="sec-desc">Régimen agrario, beneficios MYPE.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80" alt="Salud"></div><div class="sec-body"><div class="sec-tag">Salud</div><div class="sec-title">Salud y Clínicas</div><p class="sec-desc">Inafectaciones de IGV, colegiaturas.</p></div></div>
+  </div>
+</section>
+
+<!-- EQUIPO CON IMÁGENES REALES -->
+<section id="equipo">
+  <div class="equipo-header" id="equipoHeader">
+    <div class="section-eyebrow">NUESTROS PROFESIONALES</div>
+    <h2>El <em>Equipo</em> detrás del éxito</h2>
+    <p>Contadores públicos certificados y asesores financieros con experiencia comprobada, comprometidos con el crecimiento de su empresa.</p>
+  </div>
+  <div class="team-grid" id="teamGrid">
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&q=80" alt="Carlos Mendoza">
+        <div class="team-badge">CPA<br><span>MBA</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">CPA • MBA</div>
+        <h3 class="team-name">Carlos Mendoza</h3>
+        <div class="team-role">Director General</div>
+        <div class="team-tags">
+          <span class="team-tag">Auditoría</span>
+          <span class="team-tag">Consultoría Estratégica</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&q=80" alt="María González">
+        <div class="team-badge">CPA<br><span>LCP</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">CPA • LCP</div>
+        <h3 class="team-name">María González</h3>
+        <div class="team-role">Directora Financiera</div>
+        <div class="team-tags">
+          <span class="team-tag">Planificación Tributaria</span>
+          <span class="team-tag">Finanzas Corporativas</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=500&q=80" alt="Roberto Sánchez">
+        <div class="team-badge">CPA<br><span>CIA</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">CPA • CIA</div>
+        <h3 class="team-name">Roberto Sánchez</h3>
+        <div class="team-role">Auditor Senior</div>
+        <div class="team-tags">
+          <span class="team-tag">Auditoría Forense</span>
+          <span class="team-tag">Control Interno</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80" alt="Patricia Flores">
+        <div class="team-badge">CPA<br><span>Especialista</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">CPA • Especialista Tributario</div>
+        <h3 class="team-name">Patricia Flores</h3>
+        <div class="team-role">Especialista Fiscal</div>
+        <div class="team-tags">
+          <span class="team-tag">Impuestos</span>
+          <span class="team-tag">Fiscalizaciones SUNAT</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&q=80" alt="Andrés Vega">
+        <div class="team-badge">MBA<br><span>Finanzas</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">MBA • Consultor Financiero</div>
+        <h3 class="team-name">Andrés Vega</h3>
+        <div class="team-role">Consultor Financiero</div>
+        <div class="team-tags">
+          <span class="team-tag">Análisis de Rentabilidad</span>
+          <span class="team-tag">Proyecciones</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&q=80" alt="Laura Castillo">
+        <div class="team-badge">CPA<br><span>Laboral</span></div>
+        <div class="team-overlay">
+          <a href="#" class="team-social"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="team-social"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        <div class="team-cert">CPA • Especialista Laboral</div>
+        <h3 class="team-name">Laura Castillo</h3>
+        <div class="team-role">Especialista en Nómina</div>
+        <div class="team-tags">
+          <span class="team-tag">Planillas Electrónicas</span>
+          <span class="team-tag">PLAME</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="proceso-header" id="procesoHeader">
+    <div class="section-eyebrow">METODOLOGÍA</div>
+    <h2>Cómo <em>Trabajamos</em></h2>
+    <p>Un proceso claro, transparente y orientado a resultados. Así transformamos sus desafíos financieros en soluciones concretas.</p>
+  </div>
+  <div class="progress-bar-container"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="steps-buttons" id="stepsButtons">
+    <button class="step-btn" data-step="0"><div class="step-icon"><i class="fas fa-calendar-alt"></i></div><div class="step-number">01</div><div class="step-title">Consulta Inicial</div><div class="step-duration">1 día</div></button>
+    <button class="step-btn" data-step="1"><div class="step-icon"><i class="fas fa-chart-line"></i></div><div class="step-number">02</div><div class="step-title">Diagnóstico</div><div class="step-duration">2-3 días</div></button>
+    <button class="step-btn" data-step="2"><div class="step-icon"><i class="fas fa-file-signature"></i></div><div class="step-number">03</div><div class="step-title">Propuesta</div><div class="step-duration">1 día</div></button>
+    <button class="step-btn" data-step="3"><div class="step-icon"><i class="fas fa-cogs"></i></div><div class="step-number">04</div><div class="step-title">Implementación</div><div class="step-duration">Según plan</div></button>
+    <button class="step-btn" data-step="4"><div class="step-icon"><i class="fas fa-handshake"></i></div><div class="step-number">05</div><div class="step-title">Seguimiento</div><div class="step-duration">Permanente</div></button>
+  </div>
+  <div class="process-panel" id="processPanel">
+    <div class="panel-image">
+      <img class="panel-img active" data-step="0" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Consulta Inicial">
+      <img class="panel-img" data-step="1" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Diagnóstico">
+      <img class="panel-img" data-step="2" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Propuesta">
+      <img class="panel-img" data-step="3" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80" alt="Implementación">
+      <img class="panel-img" data-step="4" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" alt="Seguimiento">
+      <div class="image-overlay"></div>
+    </div>
+    <div class="panel-content">
+      <div class="content-icon"><i class="fas fa-calendar-alt"></i></div>
+      <h3 id="panelTitle">Consulta Inicial</h3>
+      <p id="panelDesc">Agendamos una reunión sin costo para conocer su empresa, entender sus necesidades contables y responder todas sus preguntas.</p>
+      <div class="panel-time"><i class="fas fa-clock"></i> <span id="panelDuration">1 día</span></div>
+    </div>
+  </div>
+  <div class="dots-container">
+    <div class="dot active" data-dot="0"></div>
+    <div class="dot" data-dot="1"></div>
+    <div class="dot" data-dot="2"></div>
+    <div class="dot" data-dot="3"></div>
+    <div class="dot" data-dot="4"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-bg-circle"></div>
+  <div class="faq-bg-circle-2"></div>
+  <div class="faq-header" id="faqHeader">
+    <div class="faq-eyebrow">PREGUNTAS FRECUENTES</div>
+    <h2>Resolvemos sus <em>Dudas</em></h2>
+    <p>Las preguntas que más nos hacen, respondidas con total transparencia. Si no encuentra lo que busca, nuestro chatbot está a su disposición.</p>
+  </div>
+  <div class="faq-grid" id="faqGrid">
+    <div class="faq-item" data-faq="0"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-coins"></i></div><span class="faq-question-text">¿Cuánto cuesta contratar sus servicios contables?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Nuestros honorarios se adaptan al tamaño y necesidades específicas de cada empresa. Trabajamos con planes mensuales personalizados que incluyen contabilidad, declaraciones y asesoría. Te invitamos a una reunión gratuita para conocer tu caso y ofrecerte una propuesta sin compromiso.</p></div></div>
+    <div class="faq-item" data-faq="1"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-building"></i></div><span class="faq-question-text">¿Trabajan con empresas pequeñas o solo con grandes corporaciones?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Trabajamos con empresas de todos los tamaños, desde emprendedores y MYPE hasta grandes corporaciones. Nuestro enfoque es personalizado y nos adaptamos a las necesidades específicas de cada cliente.</p></div></div>
+    <div class="faq-item" data-faq="2"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-chart-line"></i></div><span class="faq-question-text">¿Cuánto tiempo tarda en verse resultados?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Los primeros resultados en orden contable y cumplimiento tributario se ven en el primer mes. Para mejoras en rentabilidad y planificación financiera, trabajamos en un plan de 3 a 6 meses con seguimiento continuo.</p></div></div>
+    <div class="faq-item" data-faq="3"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-globe"></i></div><span class="faq-question-text">¿Atienden empresas de cualquier sector económico?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Sí, tenemos experiencia en más de 8 sectores económicos: construcción, comercio, restaurantes, servicios, educación, transporte, agroindustria y salud.</p></div></div>
+    <div class="faq-item" data-faq="4"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-file-alt"></i></div><span class="faq-question-text">¿Qué documentos necesito para comenzar?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Para iniciar, necesitamos: RUC y constancia de inscripción, documentos de constitución, últimos estados financieros (si existen), comprobantes de pago del último mes, y acceso a los sistemas de SUNAT.</p></div></div>
+    <div class="faq-item" data-faq="5"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-shield-alt"></i></div><span class="faq-question-text">¿Cómo garantizan la confidencialidad de mi información financiera?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Firmamos acuerdos de confidencialidad con todos los clientes, manejamos sistemas seguros con respaldo cifrado, y nuestro personal está sujeto a estrictas políticas de ética y secreto profesional.</p></div></div>
+    <div class="faq-item" data-faq="6"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-user-tie"></i></div><span class="faq-question-text">¿Tengo un contador dedicado o comparto un equipo general?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Asignamos un contador especialista como contacto principal para cada cliente. Él conoce su negocio en profundidad y es tu interlocutor directo.</p></div></div>
+    <div class="faq-item" data-faq="7"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-mobile-alt"></i></div><span class="faq-question-text">¿Puedo contactarlos fuera del horario de oficina?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Sí, nuestro equipo atiende consultas vía WhatsApp y correo electrónico fuera del horario comercial. Además, nuestro asistente virtual está disponible 24/7 para responder preguntas básicas.</p></div></div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <div class="galeria-header" id="galeriaHeader">
+    <div class="section-eyebrow">Eventos y actividades</div>
+    <h2>Galería</h2>
+    <p class="s-sub">Asesorías, seminarios y capacitaciones que realizamos para nuestros clientes y la comunidad empresarial.</p>
+  </div>
+  <div class="gtabs">
+    <button class="gtab active" data-filter="todos">Todos</button>
+    <button class="gtab" data-filter="seminarios">Seminarios</button>
+    <button class="gtab" data-filter="asesorias">Asesorías</button>
+    <button class="gtab" data-filter="capacitaciones">Capacitaciones</button>
+    <button class="gtab" data-filter="eventos">Eventos</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+    <div class="gi wide" data-cat="seminarios" data-title="Seminario Tributario 2025" data-sub="Lima · Noviembre 2025"><div class="gi-ph c1" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Seminario Tributario 2025</div><div class="gi-ph-sub" >Piura · Nov 2025 · Agregar foto</div></div><div class="gi-ov"><div class="gi-title" >Seminario Tributario 2025</div><div class="gi-sub">Piura · Noviembre 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="asesorias" data-title="Asesoría contable empresarial" data-sub="Sesión personalizada"><div class="gi-ph c2"><div class="gi-ph-label">Asesoría individual</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Asesoría contable empresarial</div><div class="gi-sub">Sesión personalizada</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi tall" data-cat="capacitaciones" data-title="Taller: Libros electrónicos SIRE" data-sub="Capacitación grupal 2025"><div class="gi-ph c3"><div class="gi-ph-label">Taller SIRÉ 2025</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Taller: Libros SIRE</div><div class="gi-sub">Capacitación grupal 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="eventos" data-title="Aniversario institucional JD Consultores" data-sub="Celebración del equipo"><div class="gi-ph c4"><div class="gi-ph-label">Aniversario</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Aniversario institucional</div><div class="gi-sub">JD Consultores</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="seminarios" data-title="Charla: Novedades SUNAT 2026" data-sub="Huánuco · Enero 2026"><div class="gi-ph c5"><div class="gi-ph-label">Charla SUNAT 2026</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Charla: Novedades SUNAT 2026</div><div class="gi-sub">Piura · Enero 2026</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi wide" data-cat="capacitaciones" data-title="Capacitación para empresarios MYPE" data-sub="Taller grupal · 2025"><div class="gi-ph c6"><div class="gi-ph-label">Capacitación MYPE</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Capacitación para empresarios MYPE</div><div class="gi-sub">Taller grupal · 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="asesorias" data-title="Reunión de diagnóstico tributario" data-sub="Asesoría empresarial"><div class="gi-ph c7"><div class="gi-ph-label">Diagnóstico tributario</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Reunión de diagnóstico</div><div class="gi-sub">Asesoría empresarial</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="seminarios" data-title="Panel: Planeamiento tributario 2025" data-sub="Mesa de especialistas"><div class="gi-ph c8"><div class="gi-ph-label">Panel de expertos</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Panel: Planeamiento tributario</div><div class="gi-sub">Mesa de especialistas 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="eventos" data-title="Networking empresarial" data-sub="Encuentro de clientes JD Consultores"><div class="gi-ph c9"><div class="gi-ph-label">Networking</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Networking empresarial</div><div class="gi-sub">Encuentro de clientes</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="capacitaciones" data-title="Taller: Cómo constituir tu empresa" data-sub="Emprendedores · 2025"><div class="gi-ph c10"><div class="gi-ph-label">Taller emprendedores</div><div class="gi-ph-sub">Agregar foto</div></div><div class="gi-ov"><div class="gi-title">Taller: Constituye tu empresa</div><div class="gi-sub">Emprendedores · 2025</div></div><div class="gi-zoom">⤢</div></div>
+  </div>
+  <div class="gallery-note"><span>📸</span> Tienes fotos de asesorías, seminarios o eventos recientes? Compártelas y las subimos a la galería con sus títulos y fechas.</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contacto-inner">
+    <div class="contacto-left" id="contactoLeft">
+      <div class="section-eyebrow">— CONTÁCTANOS</div>
+      <h2>Hablemos de tu empresa</h2>
+      <p>Primera asesoría sin costo y sin compromiso. Cuéntanos tu situación y en menos de 24 horas te contactamos.</p>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone-alt"></i></div><div><div class="contact-item-label">Celular / WhatsApp</div><div class="contact-item-value">910 548 118 — 928 853 827</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><div class="contact-item-label">Correo Electrónico</div><div class="contact-item-value">jdconsultores.estudiocontable@gmail.com</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-clock"></i></div><div><div class="contact-item-label">Horario de Atención</div><div class="contact-item-value">Lunes – Viernes, 8:00 am – 6:00 pm</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div><div class="contact-item-label">Ubicación</div><div class="contact-item-value">Piura, Perú</div></div></div>
+      <a href="https://wa.me/51910548118?text=Hola,%20me%20gustaría%20una%20asesoría" target="_blank" class="btn-wsp"><i class="fab fa-whatsapp" style="font-size:18px"></i> Escribir por WhatsApp</a>
+    </div>
+    <div class="form-card" id="formCard">
+      <div class="form-header"><div class="form-logo">JD</div><h3>Envíanos un mensaje</h3></div>
+      <p class="form-sub">Respondemos en menos de 24 horas hábiles.</p>
+      <div class="form-row"><div class="form-group"><label>Nombre</label><input type="text" id="formNombre" placeholder="Tu nombre completo"/></div><div class="form-group"><label>Empresa</label><input type="text" id="formEmpresa" placeholder="Nombre de tu empresa"/></div></div>
+      <div class="form-group"><label>Celular / WhatsApp</label><input type="tel" id="formCelular" placeholder="9XX XXX XXX"/></div>
+      <div class="form-group"><label>Correo Electrónico</label><input type="email" id="formEmail" placeholder="tu@correo.com"/></div>
+      <div class="form-group"><label>¿En qué te podemos ayudar?</label><select id="formServicio"><option value="">Selecciona un servicio</option><option>Contabilidad General</option><option>Auditoría y Aseguramiento</option><option>Asesoría Fiscal</option><option>Consultoría Financiera</option><option>Nómina y RRHH</option><option>Planificación Tributaria</option><option>Otro</option></select></div>
+      <div class="form-group"><label>Mensaje (Opcional)</label><textarea id="formMensaje" placeholder="Cuéntanos brevemente tu situación..."></textarea></div>
+      <button class="btn-submit" onclick="sendForm()">Enviar mensaje →</button>
+    </div>
+  </div>
+</section>
+
+<footer><p>© 2025 JD Consultores – Estudio Contable. Todos los derechos reservados. | <a href="mailto:jdconsultores.estudiocontable@gmail.com">jdconsultores.estudiocontable@gmail.com</a></p></footer>
+
+<!-- CHATBOT -->
+<div class="chatbot-float" id="chatbotFloat"><i class="fas fa-comment-dots"></i></div>
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header"><div class="chat-header-info"><div class="chat-avatar"><i class="fas fa-robot"></i></div><div class="chat-header-text"><h4>Asistente JD Consultores</h4><p>En línea ahora</p></div></div><button class="chat-close" id="chatClose"><i class="fas fa-times"></i></button></div>
+  <div class="chat-messages" id="chatMessages"><div class="message bot">¡Hola! 👋 Soy el asistente virtual de <strong>JD Consultores</strong>. ¿En qué puedo ayudarte hoy?</div><div class="suggestions"><button class="suggestion-btn" data-question="servicios">📋 Ver servicios</button><button class="suggestion-btn" data-question="precios">💰 Consultar precios</button><button class="suggestion-btn" data-question="contacto">📞 Contactar asesor</button><button class="suggestion-btn" data-question="faq">❓ Preguntas frecuentes</button></div></div>
+  <div class="chat-input-area"><input type="text" class="chat-input" id="chatInput" placeholder="Escribe tu mensaje..."><button class="chat-send" id="chatSend"><i class="fas fa-paper-plane"></i></button></div>
+</div>
+
+<script>
+  // ==================== SCROLL SPY ====================
+  const sections = ['inicio', 'nosotros', 'servicios', 'sectores', 'equipo', 'proceso', 'faq', 'galeria', 'contacto'];
+  const navLinks = document.querySelectorAll('.nav-links li');
+  const navIndicators = document.querySelectorAll('.nav-indicator');
+  
+  function updateActiveSection() {
+    const scrollPosition = window.scrollY + 150;
+    let current = '';
+    for (const section of sections) {
+      const element = document.getElementById(section);
+      if (element) {
+        const offsetTop = element.offsetTop;
+        const offsetBottom = offsetTop + element.offsetHeight;
+        if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
+          current = section;
+          break;
+        }
+      }
+    }
+    navLinks.forEach(link => {
+      const href = link.querySelector('a').getAttribute('href').substring(1);
+      if (href === current) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', updateActiveSection);
+  window.addEventListener('load', updateActiveSection);
+  
+  // Smooth scroll para los enlaces
+  document.querySelectorAll('.nav-links a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => updateActiveSection(), 100);
+      }
+    });
+  });
+
+  // ==================== INTERSECTION OBSERVER ====================
+  const observerOptions = { threshold: 0.15, rootMargin: "0px 0px -50px 0px" };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.hero-badge, .hero-title, .hero-sub, .hero-btns, .hero-stats, .ab-photo, .ab-right, .section-header, .flip-card, .sectores-header, .sec-card, .equipo-header, .team-card, .proceso-header, .step-btn, .process-panel, .faq-header, .faq-item, .galeria-header, .gi, .contacto-left, .form-card, .contact-item').forEach(el => observer.observe(el));
+
+  // ==================== COUNT-UP ====================
+  function animateNumber(element, target, duration = 2000) {
+    let start = 0;
+    const increment = target / (duration / 16);
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= target) { element.textContent = target; clearInterval(timer); }
+      else { element.textContent = Math.floor(start); }
+    }, 16);
+  }
+  const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateNumber(document.getElementById('stat1'), 10);
+        animateNumber(document.getElementById('stat2'), 200);
+        animateNumber(document.getElementById('stat3'), 6);
+        animateNumber(document.getElementById('stat4'), 8);
+        animateNumber(document.getElementById('yearsCounter'), 10);
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  statsObserver.observe(document.getElementById('heroStats'));
+
+  // ==================== PROCESO ====================
+  let activeStep = 0;
+  const stepsData = [
+    { title: "Consulta Inicial", desc: "Agendamos una reunión sin costo para conocer su empresa, entender sus necesidades contables y responder todas sus preguntas.", duration: "1 día", icon: "fa-calendar-alt" },
+    { title: "Diagnóstico Financiero", desc: "Analizamos su situación contable, tributaria y financiera actual para identificar fortalezas, debilidades y oportunidades de mejora.", duration: "2-3 días", icon: "fa-chart-line" },
+    { title: "Propuesta Personalizada", desc: "Diseñamos un plan de acción a medida con servicios específicos, cronograma de trabajo, entregables y honorarios transparentes.", duration: "1 día", icon: "fa-file-signature" },
+    { title: "Implementación", desc: "Ejecutamos el plan acordado: procesamiento contable, declaraciones tributarias, implementación de mejoras y acompañamiento activo.", duration: "Según plan", icon: "fa-cogs" },
+    { title: "Seguimiento Continuo", desc: "Acompañamiento constante, reportes mensuales, actualización normativa y asesoría permanente para garantizar su tranquilidad tributaria.", duration: "Permanente", icon: "fa-handshake" }
+  ];
+
+  const progressFill = document.getElementById('progressFill');
+  const stepBtns = document.querySelectorAll('.step-btn');
+  const panelImgs = document.querySelectorAll('.panel-img');
+  const panelTitle = document.getElementById('panelTitle');
+  const panelDesc = document.getElementById('panelDesc');
+  const panelDuration = document.getElementById('panelDuration');
+  const contentIcon = document.querySelector('.content-icon i');
+  const dots = document.querySelectorAll('.dot');
+
+  function updateProcess(step) {
+    activeStep = step;
+    stepBtns.forEach((btn, i) => {
+      btn.classList.remove('active', 'completed');
+      if (i === step) btn.classList.add('active');
+      else if (i < step) btn.classList.add('completed');
+    });
+    panelImgs.forEach((img, i) => {
+      if (i === step) img.classList.add('active');
+      else img.classList.remove('active');
+    });
+    panelTitle.textContent = stepsData[step].title;
+    panelDesc.textContent = stepsData[step].desc;
+    panelDuration.textContent = stepsData[step].duration;
+    contentIcon.className = `fas ${stepsData[step].icon}`;
+    dots.forEach((dot, i) => {
+      if (i === step) dot.classList.add('active');
+      else dot.classList.remove('active');
+    });
+    const progress = (step / (stepsData.length - 1)) * 100;
+    progressFill.style.width = `${progress}%`;
+  }
+
+  stepBtns.forEach((btn, idx) => { btn.addEventListener('click', () => updateProcess(idx)); });
+  dots.forEach((dot, idx) => { dot.addEventListener('click', () => updateProcess(idx)); });
+
+  const processSection = document.getElementById('proceso');
+  let animationStarted = false;
+  const processObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !animationStarted) {
+        animationStarted = true;
+        const startTime = performance.now();
+        const endWidth = (activeStep / (stepsData.length - 1)) * 100;
+        function animateLine(now) {
+          const elapsed = now - startTime;
+          const progress = Math.min(elapsed / 1400, 1);
+          progressFill.style.width = `${endWidth * progress}%`;
+          if (progress < 1) requestAnimationFrame(animateLine);
+        }
+        requestAnimationFrame(animateLine);
+      }
+    });
+  }, { threshold: 0.3 });
+  processObs.observe(processSection);
+
+  // ==================== FAQ ACORDEÓN ====================
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach((item) => {
+    const btn = item.querySelector('.faq-question');
+    btn.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+      faqItems.forEach(i => i.classList.remove('active'));
+      if (!isActive) item.classList.add('active');
+    });
+  });
+
+  // ==================== GALERÍA FILTER ====================
+  const galleryItems = document.querySelectorAll('.gi');
+  const gbtns = document.querySelectorAll('.gtab');
+  gbtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      gbtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      galleryItems.forEach(item => {
+        if (filter === 'todos' || item.dataset.cat === filter) item.style.display = '';
+        else item.style.display = 'none';
+      });
+    });
+  });
+
+  // ==================== LIGHTBOX ====================
+  const visibleItems = () => Array.from(galleryItems).filter(i => i.style.display !== 'none');
+  let currentIdx = 0;
+  function openLightbox(idx) { currentIdx = idx; renderLightbox(); document.getElementById('lightbox').classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function renderLightbox() {
+    const item = galleryItems[currentIdx];
+    document.getElementById('lightboxTitle').textContent = item.dataset.title || '';
+    document.getElementById('lightboxSub').textContent = item.dataset.sub || '';
+    const wrap = document.getElementById('lightboxWrap');
+    const img = item.querySelector('img');
+    if (img) wrap.innerHTML = `<img src="${img.src}" alt="${item.dataset.title}">`;
+    else { const label = item.querySelector('.gi-ph-label'); wrap.innerHTML = `<div class="lightbox-ph"><div class="lightbox-ph-label">${label ? label.textContent : 'Foto próximamente'}</div></div>`; }
+  }
+  function closeLightbox() { document.getElementById('lightbox').classList.remove('open'); document.body.style.overflow = ''; }
+  function changeImage(dir) {
+    const visible = visibleItems();
+    const currentVisibleIndex = visible.indexOf(galleryItems[currentIdx]);
+    let newVisibleIndex = currentVisibleIndex + dir;
+    if (newVisibleIndex < 0) newVisibleIndex = visible.length - 1;
+    if (newVisibleIndex >= visible.length) newVisibleIndex = 0;
+    currentIdx = Array.from(galleryItems).indexOf(visible[newVisibleIndex]);
+    renderLightbox();
+  }
+  galleryItems.forEach((item, idx) => { item.addEventListener('click', () => openLightbox(idx)); });
+  if (!document.getElementById('lightbox')) {
+    const lb = document.createElement('div');
+    lb.className = 'lightbox'; lb.id = 'lightbox';
+    lb.innerHTML = `<button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button><button class="lightbox-nav lightbox-prev" onclick="changeImage(-1)"><i class="fas fa-chevron-left"></i></button><div class="lightbox-wrap" id="lightboxWrap"><div class="lightbox-ph"><div class="lightbox-ph-label">Foto próximamente</div></div></div><div class="lightbox-caption"><h4 id="lightboxTitle"></h4><p id="lightboxSub"></p></div><button class="lightbox-nav lightbox-next" onclick="changeImage(1)"><i class="fas fa-chevron-right"></i></button>`;
+    document.body.appendChild(lb);
+  }
+  document.getElementById('lightbox')?.addEventListener('click', (e) => { if (e.target === e.currentTarget) closeLightbox(); });
+  document.addEventListener('keydown', (e) => {
+    if (!document.getElementById('lightbox')?.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') changeImage(1);
+    if (e.key === 'ArrowLeft') changeImage(-1);
+  });
+
+  // ==================== FORM ====================
+  function sendForm() {
+    const nombre = document.getElementById('formNombre')?.value.trim();
+    const celular = document.getElementById('formCelular')?.value.trim();
+    const email = document.getElementById('formEmail')?.value.trim();
+    const servicio = document.getElementById('formServicio')?.value;
+    if (!nombre) { alert('Por favor ingresa tu nombre completo.'); return; }
+    if (!celular) { alert('Por favor ingresa tu número de celular / WhatsApp.'); return; }
+    if (!email) { alert('Por favor ingresa tu correo electrónico.'); return; }
+    if (!servicio) { alert('Por favor selecciona un servicio de interés.'); return; }
+    const emailRegex = /^[^\s@]+@([^\s@]+\.)+[^\s@]+$/;
+    if (!emailRegex.test(email)) { alert('Ingresa un correo electrónico válido.'); return; }
+    let waMessage = `*Nuevo mensaje desde JD Consultores*%0A%0A`;
+    waMessage += `*Nombre:* ${encodeURIComponent(nombre)}%0A`;
+    waMessage += `*Celular:* ${encodeURIComponent(celular)}%0A`;
+    waMessage += `*Email:* ${encodeURIComponent(email)}%0A`;
+    waMessage += `*Servicio:* ${encodeURIComponent(servicio)}%0A`;
+    if (confirm('¿Deseas abrir WhatsApp para enviar el mensaje?')) window.open(`https://wa.me/51910548118?text=${waMessage}`, '_blank');
+  }
+
+  // ==================== CHATBOT ====================
+  const chatbotFloat = document.getElementById('chatbotFloat');
+  const chatWindow = document.getElementById('chatWindow');
+  const chatClose = document.getElementById('chatClose');
+  const chatMessages = document.getElementById('chatMessages');
+  const chatInput = document.getElementById('chatInput');
+  const chatSend = document.getElementById('chatSend');
+
+  const botResponses = {
+    default: "Gracias por tu mensaje. ¿Podrías ser más específico? Puedes consultar nuestras secciones de Servicios, FAQ o contactarnos directamente por WhatsApp.",
+    servicios: "Ofrecemos los siguientes servicios:\n\n📊 **Contabilidad General** - Registro de transacciones y libros PLE/SIRE\n🔍 **Auditoría** - Externa, interna y control interno\n⚖️ **Asesoría Fiscal** - Declaraciones y planificación tributaria\n👥 **Nómina y RRHH** - Planillas electrónicas, CTS, gratificaciones\n📈 **Consultoría Financiera** - Análisis de KPIs y proyecciones\n📋 **Planificación Tributaria** - Optimización fiscal\n\n¿Te gustaría más información sobre alguno de ellos?",
+    precios: "Nuestros honorarios se adaptan al tamaño y necesidades de cada empresa. Te invitamos a una **asesoría gratuita** para conocer tu caso y ofrecerte una propuesta personalizada sin compromiso.\n\n¿Te gustaría agendar una reunión ahora?",
+    contacto: "Puedes contactarnos de varias formas:\n\n📞 **Teléfono/WhatsApp:** 910 548 118 — 928 853 827\n✉️ **Correo:** jdconsultores.estudiocontable@gmail.com\n📍 **Ubicación:** Huánuco y Lima, Perú\n\n¿Quieres que te ayude a enviar un mensaje?",
+    faq: "Las preguntas más frecuentes son:\n\n1️⃣ ¿Cuánto cuesta? → Ofrecemos asesoría gratuita personalizada\n2️⃣ ¿Atienden MYPE? → Sí, trabajamos con empresas de todos los tamaños\n3️⃣ ¿Cómo garantizan confidencialidad? → Firmamos acuerdos y usamos sistemas seguros\n4️⃣ ¿Tengo contador dedicado? → Sí, asignamos un especialista por cliente\n\n¿Quieres saber más sobre alguna pregunta específica?",
+    horario: "Nuestro horario de atención es de **Lunes a Viernes de 8:00 am a 6:00 pm**. Fuera de ese horario, puedes dejarnos un mensaje y te responderemos a la brevedad. ¡Nuestro chatbot está disponible 24/7!",
+    gracias: "¡Gracias a ti por contactarnos! 😊 ¿Hay algo más en lo que pueda ayudarte?",
+    hola: "¡Hola! 👋 Bienvenido a JD Consultores. ¿En qué puedo ayudarte? Puedes preguntarme sobre servicios, precios, horarios o contactarnos."
+  };
+
+  function addMessage(text, isUser = false) {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+    messageDiv.innerHTML = text.replace(/\n/g, '<br>');
+    chatMessages.appendChild(messageDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function showTyping() {
+    const typingDiv = document.createElement('div');
+    typingDiv.className = 'typing-indicator';
+    typingDiv.id = 'typingIndicator';
+    typingDiv.innerHTML = '<span></span><span></span><span></span>';
+    chatMessages.appendChild(typingDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function removeTyping() {
+    const typing = document.getElementById('typingIndicator');
+    if (typing) typing.remove();
+  }
+
+  function getBotResponse(message) {
+    const msg = message.toLowerCase().trim();
+    if (msg.includes('hola') || msg.includes('buenas') || msg.includes('saludos')) return botResponses.hola;
+    if (msg.includes('servicio') || msg.includes('hacen') || msg.includes('ofrecen')) return botResponses.servicios;
+    if (msg.includes('precio') || msg.includes('cuesta') || msg.includes('costo') || msg.includes('honorario')) return botResponses.precios;
+    if (msg.includes('contacto') || msg.includes('teléfono') || msg.includes('whatsapp') || msg.includes('ubicación')) return botResponses.contacto;
+    if (msg.includes('pregunta') || msg.includes('faq') || msg.includes('duda')) return botResponses.faq;
+    if (msg.includes('horario') || msg.includes('atencion') || msg.includes('atend')) return botResponses.horario;
+    if (msg.includes('gracias') || msg.includes('graci')) return botResponses.gracias;
+    return botResponses.default;
+  }
+
+  function sendMessage() {
+    const message = chatInput.value.trim();
+    if (!message) return;
+    addMessage(message, true);
+    chatInput.value = '';
+    showTyping();
+    setTimeout(() => {
+      removeTyping();
+      const response = getBotResponse(message);
+      addMessage(response, false);
+      if (!document.querySelector('.suggestions')) {
+        const suggestionsDiv = document.createElement('div');
+        suggestionsDiv.className = 'suggestions';
+        suggestionsDiv.innerHTML = `<button class="suggestion-btn" data-question="servicios">📋 Ver servicios</button><button class="suggestion-btn" data-question="precios">💰 Consultar precios</button><button class="suggestion-btn" data-question="contacto">📞 Contactar asesor</button><button class="suggestion-btn" data-question="faq">❓ Preguntas frecuentes</button>`;
+        chatMessages.appendChild(suggestionsDiv);
+        attachSuggestionEvents();
+      }
+    }, 800);
+  }
+
+  function attachSuggestionEvents() {
+    document.querySelectorAll('.suggestion-btn').forEach(btn => {
+      btn.removeEventListener('click', suggestionClick);
+      btn.addEventListener('click', suggestionClick);
+    });
+  }
+
+  function suggestionClick(e) {
+    const question = e.currentTarget.dataset.question;
+    addMessage(e.currentTarget.textContent, true);
+    showTyping();
+    setTimeout(() => {
+      removeTyping();
+      let response = botResponses[question] || botResponses.default;
+      addMessage(response, false);
+    }, 500);
+  }
+
+  chatSend.addEventListener('click', sendMessage);
+  chatInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') sendMessage(); });
+  chatbotFloat.addEventListener('click', () => { chatWindow.classList.toggle('open'); });
+  chatClose.addEventListener('click', () => { chatWindow.classList.remove('open'); });
+  document.addEventListener('click', (e) => {
+    if (!chatWindow.contains(e.target) && !chatbotFloat.contains(e.target) && chatWindow.classList.contains('open')) {
+      chatWindow.classList.remove('open');
+    }
+  });
+  attachSuggestionEvents();
+
+  // Hero delays manual
+  setTimeout(() => {
+    document.getElementById('heroBadge')?.classList.add('visible');
+    document.getElementById('heroTitle')?.classList.add('visible');
+    document.getElementById('heroSub')?.classList.add('visible');
+    document.getElementById('heroBtns')?.classList.add('visible');
+    document.getElementById('heroStats')?.classList.add('visible');
+  }, 120);
+
+
+
+
+  
+</script>
+</body>
+</html>

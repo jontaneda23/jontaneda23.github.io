@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Soluciones Contables – JD Consultores </title>
+<link rel="icon" type="image/png" href="img/jdY.png"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!-- NAVBAR CON SCROLL SPY -->
+<nav>
+  <div class="logo">JD</div>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio<span class="nav-indicator"></span></a></li>
+    <li><a href="#nosotros">Nosotros<span class="nav-indicator"></span></a></li>
+    <li><a href="#servicios">Servicios<span class="nav-indicator"></span></a></li>
+    <li><a href="#sectores">Sectores<span class="nav-indicator"></span></a></li>
+    <li><a href="#proceso">Proceso<span class="nav-indicator"></span></a></li>
+    <li><a href="#equipo">Equipo<span class="nav-indicator"></span></a></li>
+    <li><a href="#galeria">Galería<span class="nav-indicator"></span></a></li>
+    <li><a href="#faq">FAQ<span class="nav-indicator"></span></a></li>
+    <li><a href="#contacto">Contacto<span class="nav-indicator"></span></a></li>
+  </ul>
+  <button class="btn-nav" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Contáctenos</button>
+</nav>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge" id="heroBadge">SERVICIOS CONTABLES &amp; FINANCIEROS</div>
+    <h1 class="hero-title" id="heroTitle">Soluciones Contables <em>de<br>Confianza</em></h1>
+    <p class="hero-sub" id="heroSub">Brindamos servicios de contabilidad, auditoría y asesoría fiscal a empresas de todos los sectores, con profesionalismo, precisión y transparencia.</p>
+    <div class="hero-btns" id="heroBtns">
+      <a href="#servicios" class="btn-primary">Conocer Servicios</a>
+      <a href="#contacto" class="btn-outline">Contáctenos</a>
+    </div>
+  </div>
+  <div class="hero-stats" id="heroStats">
+    <div class="stat-item"><div class="stat-number" id="stat1">0</div><div class="stat-label">Años de experiencia</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat2">0</div><div class="stat-label">Clientes atendidos</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat3">0</div><div class="stat-label">Servicios</div></div>
+    <div class="stat-item"><div class="stat-number" id="stat4">0</div><div class="stat-label">Sectores</div></div>
+  </div>
+  
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="ab-photo" id="nosotrosPhoto">
+    <div class="ab-main-photo">
+      <img src="img/jef01.jpeg" alt="Equipo JD Consultores">
+      <div class="ab-photo-overlay"></div>
+    </div>
+    <div class="ab-badge-top">Estudio Contable Certificado<span>Piura, Perú</span></div>
+    <div class="ab-caption"><p class="ab-quote">"La excelencia no es un destino, es una forma permanente de trabajar."</p><p class="ab-attr">— Filosofía JD Yovera & Asociados</p></div>
+    <div class="ab-float"><div class="ab-float-n" id="yearsCounter">+10</div><div class="ab-float-l">Años de trayectoria</div></div>
+  </div>
+  <div class="ab-right" id="nosotrosText">
+    <div class="section-eyebrow">Quiénes somos</div>
+    <h2>Experiencia que genera confianza.</h2>
+    <p class="s-sub">Somos un equipo de contadores y asesores con más de 10 años acompañando a empresarios peruanos en la gestión contable, tributaria y gerencial de sus negocios.</p>
+    <ul class="ab-list">
+       <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">En JD Yovera y Asociados encuentras soluciones y asesoría con experiencia para la correcta gestió contable y tributaria de tu empresa</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Asesoría confiable y personalizada</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Cumplimiento normativo tributario</div></li>
+      <li class="ab-li"><div class="ab-check">✓</div><div class="ab-li-text">Informacion contable financiera para la toma de decisiones</div></li>
+     
+      
+    </ul>
+    <a href="#contacto" class="btn-primary">Contáctanos hoy →</a>
+  </div>
+</section>
+
+<!-- SERVICIOS CON IMÁGENES DE FONDO -->
+<section id="servicios">
+  <div class="section-header" id="serviciosHeader">
+    <div class="section-eyebrow">LO QUE OFRECEMOS</div>
+    <h2 class="section-title">Soluciones <br>Contables y <em>tributarias</em></h2>
+    <p>Soluciones contables y tributarias para impulsar el crecimiento de su empresa.</p>
+  </div>
+  <div class="services-grid">
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&q=80');"><div class="service-number">01</div><div class="service-icon"><i class="fas fa-file-invoice"></i></div><h3 style="text-align: center;">Contabilidad integral y libros <br>electronicos PLE - SIRE </h3></div><div class="flip-back"><div class="back-content"><div class="back-badge">INTEGRAL</div><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Llevamos tu contabilidad completa bajo los estándares de SUNAT. Generamos y validamos tus libros electrónicos (PLE) y te adaptamos al nuevo sistema SIRE</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80');"><div class="service-number">02</div><div class="service-icon"><i class="fas fa-search-dollar"></i></div><h3>Declaraciones Mensuales y Anuales</h3></div><div class="flip-back"><div class="back-content"><div class="back-badge">DECLARACIONES</div><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Presentamos tus declaraciones ante SUNAT dentro de los plazos establecidos, evitando multas e intereses.</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&q=80');"><div class="service-number">03</div><div class="service-icon"><i class="fas fa-landmark"></i></div><h3>Asesoría en Fiscalizaciones SUNAT</h3></div><div class="flip-back"><div class="back-content"><div class="back-badge">ASESORIA</div><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Te acompañamos durante todo el proceso de fiscalización de SUNAT</li></ul><a href="#contacto" class="back-link">CONSULTAR→</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&q=80');"><div class="service-number">04</div><div class="service-icon"><i class="fas fa-users"></i></div><h3 style="text-align: center;">Constitución y Formalización de empresas</h3></div><div class="flip-back"><div class="back-content"><div class="back-badge">CONSTITUCIÓN Y FORMALIZACIÓN</div><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Te guiamos paso a paso para que tu negocio opere formalmente desde el día 1.</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80');"><div class="service-number">05</div><div class="service-icon"><i class="fas fa-chart-line"></i></div><h3 style="text-align: center;">Asesoría financiera y tributaria permanente</h3></div><div class="flip-back"><div class="back-content"><div class="back-badge">ASESORIA</div><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Te brindamos acompañamiento continuo para la correcta toma de decisiones financieras y tributarias.</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+    <div class="flip-card"><div class="flip-card-inner"><div class="flip-front" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&q=80');"><div class="service-number">06</div><div class="service-icon"><i class="fas fa-file-contract"></i></div><h3>Planificación Tributaria</h3><p>Optimización fiscal y beneficios legales.</p></div><div class="flip-back"><div class="back-content"><div class="back-badge">ESTRATEGIA FISCAL</div><h4>Planificación Tributaria</h4><ul class="back-detail-list"><li><i class="fas fa-check-circle"></i> Optimización de carga fiscal</li><li><i class="fas fa-check-circle"></i> Beneficios fiscales</li></ul><a href="#contacto" class="back-link">CONSULTAR →</a></div></div></div></div>
+  </div>
+</section>
+
+<!-- SECTORES CON IMÁGENES -->
+<section id="sectores">
+  <div class="sectores-header" id="sectoresHeader">
+    <div class="section-eyebrow">A QUIÉNES ATENDEMOS</div>
+    <h2 class="section-title">Sectores <em>Atendidos</em></h2>
+    <p>Experiencia en diversas industrias para anticipar las necesidades específicas de tu rubro.</p>
+  </div>
+  <div class="sec-grid" id="sectoresGrid">
+    <div class="sec-card"><div class="sec-photo"><img src="img/inmobiliaria.jpg" alt="Construcción"></div><div class="sec-body"><div class="sec-tag">Construcción</div><div class="sec-title">Construcción e Inmobiliaria</div><p class="sec-desc">Costos de obra, detracciones, regímenes especiales.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/comercio.jpg" alt="Comercio"></div><div class="sec-body"><div class="sec-tag">Comercio</div><div class="sec-title">Comercio</div><p class="sec-desc">Inventarios, facturación electrónica, márgenes.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/restaurante.jpg" alt="Restaurantes"></div><div class="sec-body"><div class="sec-tag">Gastronomía</div><div class="sec-title">Restaurantes y Gastronomía</div><p class="sec-desc">Percepciones, costos de insumos, planilla.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/servicios.jpg" alt="Servicios"></div><div class="sec-body"><div class="sec-tag">Servicios</div><div class="sec-title">Empresas de Servicios</div><p class="sec-desc">Contratos, facturación, rentas de cuarta y quinta.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/educacion.jpg" alt="Educación"></div><div class="sec-body"><div class="sec-tag">Educación</div><div class="sec-title">Educación</div><p class="sec-desc">Exoneraciones tributarias, donaciones.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/logistica.jpg" alt="Transporte"></div><div class="sec-body"><div class="sec-tag">Transporte</div><div class="sec-title">Transporte y Logística</div><p class="sec-desc">Detracciones, activos fijos de flota.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/agroindustria.jpg" alt="Agroindustria"></div><div class="sec-body"><div class="sec-tag">Agroindustria</div><div class="sec-title">Agroindustria</div><p class="sec-desc">Régimen agrario, beneficios MYPE.</p></div></div>
+    <div class="sec-card"><div class="sec-photo"><img src="img/salud.jpg" alt="Salud"></div><div class="sec-body"><div class="sec-tag">Salud</div><div class="sec-title">Salud y Clínicas</div><p class="sec-desc">Inafectaciones de IGV, colegiaturas.</p></div></div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="proceso-header" id="procesoHeader">
+    <div class="section-eyebrow">METODOLOGÍA</div>
+    <h2>Cómo <em>Trabajamos</em></h2>
+    <p>Un proceso claro, transparente y orientado a resultados. Así transformamos sus desafíos financieros en soluciones concretas.</p>
+  </div>
+  <div class="progress-bar-container"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="steps-buttons" id="stepsButtons">
+    <button class="step-btn" data-step="0"><div class="step-icon"><i class="fas fa-calendar-alt"></i></div><div class="step-number">01</div><div class="step-title">Consulta con el cliente</div><div class="step-duration">1 día</div></button>
+    <button class="step-btn" data-step="1"><div class="step-icon"><i class="fas fa-chart-line"></i></div><div class="step-number">02</div><div class="step-title">Diagnóstico</div><div class="step-duration">2-3 días</div></button>
+    <button class="step-btn" data-step="2"><div class="step-icon"><i class="fas fa-file-signature"></i></div><div class="step-number">03</div><div class="step-title">Propuesta</div><div class="step-duration">1 día</div></button>
+    <button class="step-btn" data-step="3"><div class="step-icon"><i class="fas fa-cogs"></i></div><div class="step-number">04</div><div class="step-title">Implementación</div><div class="step-duration">Según plan</div></button>
+    <button class="step-btn" data-step="4"><div class="step-icon"><i class="fas fa-handshake"></i></div><div class="step-number">05</div><div class="step-title">Seguimiento</div><div class="step-duration">Permanente</div></button>
+  </div>
+  <div class="process-panel" id="processPanel">
+    <div class="panel-image">
+      <img class="panel-img active" data-step="0" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Consulta Inicial">
+      <img class="panel-img" data-step="1" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Diagnóstico">
+      <img class="panel-img" data-step="2" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Propuesta">
+      <img class="panel-img" data-step="3" src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80" alt="Implementación">
+      <img class="panel-img" data-step="4" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" alt="Seguimiento">
+      <div class="image-overlay"></div>
+    </div>
+    <div class="panel-content">
+      <div class="content-icon"><i class="fas fa-calendar-alt"></i></div>
+      <h3 id="panelTitle">Consulta Inicial</h3>
+      <p id="panelDesc">Reunión inicial para conocer la empresa y sus necesidades.</p>
+      <div class="panel-time"><i class="fas fa-clock"></i> <span id="panelDuration">1 día</span></div>
+    </div>
+  </div>
+  <div class="dots-container">
+    <div class="dot active" data-dot="0"></div>
+    <div class="dot" data-dot="1"></div>
+    <div class="dot" data-dot="2"></div>
+    <div class="dot" data-dot="3"></div>
+    <div class="dot" data-dot="4"></div>
+  </div>
+</section>
+
+
+<!-- EQUIPO CON IMÁGENES REALES -->
+<section id="equipo">
+  <div class="equipo-header" id="equipoHeader">
+    <div class="section-eyebrow">NUESTROS PROFESIONALES</div>
+    <h2>El <em>Equipo</em> detrás del éxito</h2>
+    <p>Contadores públicos certificados y asesores financieros con experiencia comprobada, comprometidos con el crecimiento de su empresa.</p>
+  </div>
+  <div class="team-grid" id="teamGrid">
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/jef001.jpeg" alt="Jaime Yovera">
+        
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        
+        <h3 class="team-name">Jaime Yovera</h3>
+        <div class="team-role">General General</div>
+        <div class="team-tags">
+          <span class="team-tag">Dirección Estratégica</span>
+          <span class="team-tag">Toma de Decisiones</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/jef02.jpeg" alt="Erin Juliana">
+        
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        
+        <h3 class="team-name">Giuliana neyra </h3>
+        <div class="team-role">Administradora</div>
+        <div class="team-tags">
+          <span class="team-tag">Gestión Operativa </span>
+          <span class="team-tag">Coordinación de Equipos</span>
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/contador01.png" alt="Roberto Sánchez">
+        
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        
+        </div>
+      </div>
+      <div class="team-info">
+       
+        <h3 class="team-name">Omar  Flores</h3>
+        <div class="team-role">Contador</div>
+        <div class="team-tags">
+          <span class="team-tag">Contabilidad General</span>
+          
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/emple001.jpeg" alt="Patricia Flores">
+       
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        
+        <h3 class="team-name">Nicole Mejia </h3>
+        <div class="team-role">Contadora</div>
+        <div class="team-tags">
+          <span class="team-tag">Declaraciones Mensuales/Anuales</span>
+          
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/emple20.jpeg" alt="Andrés Vega">
+       
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        
+        </div>
+      </div>
+      <div class="team-info">
+       
+        <h3 class="team-name">Esthefany Rodriguez </h3>
+        <div class="team-role">Contadora</div>
+        <div class="team-tags">
+          <span class="team-tag">Estados Financieros</span>
+          
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo">
+        <img src="img/contador02.png " alt="Laura Castillo">
+       
+        <div class="team-overlay">
+          <a href="https://www.facebook.com/Soycontador5?rdid=OqASLzDeLKUv9A7Z&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14cFPS4k9o3%2F#" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jd__yovera_y_asociados?igsh=dWZrZHc4Y2RrdnZp" target="_blank" class="team-social"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.tiktok.com/@jd.yovera.asociad?_r=1&_t=ZS-95nLwMW1DF7" target="_blank" rel="noopener noreferrer" class="team-social"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="team-info">
+        
+        <h3 class="team-name">Gabriel Yovera </h3>
+        <div class="team-role">Contador</div>
+        <div class="team-tags">
+          <span class="team-tag">Elaboración de proyecciones</span>
+        
+        </div>
+        <div class="team-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- SECCIÓN RECURSOS: CARDS CON IMAGEN -->
+<section id="galeria">
+  <div class="galeria-header" id="galeriaHeader">
+    <div class="section-eyebrow">GUÍA PARA EMPRENDEDORES</div>
+    <h2>Aprende y <em>formaliza</em> tu negocio</h2>
+    <p class="s-sub">Guías y recursos diseñados para ayudarte a gestionar y formalizar tu empresa correctamente.</p>
+  </div>
+
+  <div class="recursos-grid">
+
+    <!-- Card 1 -->
+    <div class="recurso-card" data-modal="modal-checklist">
+      <div class="recurso-img-wrap">
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=700&q=80" alt="Checklist para formalizar tu empresa" loading="lazy">
+        <span class="recurso-tag tag-guia">Guía</span>
+      </div>
+      <div class="recurso-body">
+        <div class="recurso-meta"><i class="fas fa-clock"></i> 5 min</div>
+        <h3 class="recurso-title">Checklist para formalizar tu empresa</h3>
+        <p class="recurso-desc">Los 6 requisitos esenciales que necesitas tener en orden: RUC, comprobantes, libros electrónicos y más.</p>
+        <span class="recurso-link">Ver checklist <span>→</span></span>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="recurso-card" data-modal="modal-errores">
+      <div class="recurso-img-wrap">
+        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=700&q=80" alt="Errores contables más comunes" loading="lazy">
+        <span class="recurso-tag tag-tutorial">Errores comunes</span>
+      </div>
+      <div class="recurso-body">
+        <div class="recurso-meta"><i class="fas fa-clock"></i> 8 min</div>
+        <h3 class="recurso-title">6 Errores contables que debes evitar</h3>
+        <p class="recurso-desc">Desde mezclar gastos personales hasta no conocer tu régimen tributario: aprende a evitarlos con soluciones prácticas.</p>
+        <span class="recurso-link">Ver errores y soluciones <span>→</span></span>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="recurso-card" data-modal="modal-consejos">
+      <div class="recurso-img-wrap">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80" alt="5 consejos de gestión financiera" loading="lazy">
+        <span class="recurso-tag tag-consejos">Consejos</span>
+      </div>
+      <div class="recurso-body">
+        <div class="recurso-meta"><i class="fas fa-clock"></i> 10 min</div>
+        <h3 class="recurso-title">5 Consejos para una contabilidad sana</h3>
+        <p class="recurso-desc">Flujo de caja, balance general, software contable y más: las claves para mantener tus finanzas en orden.</p>
+        <span class="recurso-link">Ver consejos <span>→</span></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="recursos-cta">
+    <a href="#contacto" class="btn-primary">¿Tienes dudas? Contáctanos →</a>
+  </div>
+</section>
+
+<!-- ====== MODALES ====== -->
+
+<!-- MODAL CHECKLIST -->
+<div class="recurso-modal" id="modal-checklist">
+  <div class="modal-backdrop"></div>
+  <div class="modal-box">
+    <button class="modal-close"><i class="fas fa-times"></i></button>
+    <div class="modal-header">
+      <span class="modal-tag tag-guia">Guía </span>
+      <h2 class="modal-title">Checklist para formalizar tu empresa</h2>
+      <p class="modal-subtitle">Los 6 requisitos esenciales que toda empresa debe tener en orden ante SUNAT.</p>
+    </div>
+    <div class="modal-content">
+      <div class="modal-checklist-item">
+        <div class="mcl-num">01</div>
+        <div class="mcl-body">
+          <h4>RUC activo y habilitado</h4>
+          <p>Tu Registro Único de Contribuyente debe estar activo y con el domicilio fiscal actualizado ante SUNAT.</p>
+        </div>
+        <span class="mcl-badge badge-req">Obligatorio</span>
+      </div>
+      <div class="modal-checklist-item">
+        <div class="mcl-num">02</div>
+        <div class="mcl-body">
+          <h4>Comprobantes de pago autorizados</h4>
+          <p>Facturas, boletas y tickets que cumplan con los requisitos de SUNAT para respaldar tus operaciones.</p>
+        </div>
+        <span class="mcl-badge badge-req">Obligatorio</span>
+      </div>
+      <div class="modal-checklist-item">
+        <div class="mcl-num">03</div>
+        <div class="mcl-body">
+          <h4>Registro de Compras y Ventas</h4>
+          <p>Lleva un control ordenado de todas tus transacciones, ya sea en físico o electrónico (PLE).</p>
+        </div>
+        <span class="mcl-badge badge-req">Obligatorio</span>
+      </div>
+      <div class="modal-checklist-item">
+        <div class="mcl-num">04</div>
+        <div class="mcl-body">
+          <h4>Libro Diario y Mayor</h4>
+          <p>Obligatorio para regímenes como MYPE Tributario y Régimen General.</p>
+        </div>
+        <span class="mcl-badge badge-cond">Condicional</span>
+      </div>
+      <div class="modal-checklist-item">
+        <div class="mcl-num">05</div>
+        <div class="mcl-body">
+          <h4>Planilla electrónica</h4>
+          <p>Si tienes trabajadores, debes registrar y declarar tus planillas en el T-Registro y PLAME.</p>
+        </div>
+        <span class="mcl-badge badge-cond">Condicional</span>
+      </div>
+      <div class="modal-checklist-item">
+        <div class="mcl-num">06</div>
+        <div class="mcl-body">
+          <h4>Cuenta bancaria empresarial</h4>
+          <p>Separa tus finanzas personales de las de tu negocio con una cuenta exclusiva para la empresa.</p>
+        </div>
+        <span class="mcl-badge badge-rec">Recomendado</span>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#contacto" class="btn-primary modal-cta-btn">¿Necesitas ayuda? Contáctanos →</a>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL ERRORES -->
+<div class="recurso-modal" id="modal-errores">
+  <div class="modal-backdrop"></div>
+  <div class="modal-box">
+    <button class="modal-close"><i class="fas fa-times"></i></button>
+    <div class="modal-header">
+      <span class="modal-tag tag-tutorial">Errores comunes</span>
+      <h2 class="modal-title">6 Errores contables que debes evitar</h2>
+      <p class="modal-subtitle">Problemas frecuentes en empresas peruanas y cómo solucionarlos.</p>
+    </div>
+    <div class="modal-content">
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_01</span>
+          <h4>Mezclar gastos personales con los de la empresa</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Abre una cuenta bancaria separada para tu negocio y usa tarjetas distintas.</p>
+        </div>
+      </div>
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_02</span>
+          <h4>No guardar comprobantes de pago</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Digitaliza todos tus documentos en la nube o usa un software de escaneo.</p>
+        </div>
+      </div>
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_03</span>
+          <h4>Declarar fuera de los plazos establecidos</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Configura recordatorios mensuales o delega tu contabilidad a un especialista.</p>
+        </div>
+      </div>
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_04</span>
+          <h4>No conciliar las cuentas bancarias</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Compara tus extractos bancarios con tus registros contables cada 30 días.</p>
+        </div>
+      </div>
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_05</span>
+          <h4>Perder facturas de compra</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Archiva físicamente y digitaliza todos tus comprobantes de compra.</p>
+        </div>
+      </div>
+      <div class="modal-error-item">
+        <div class="merr-left">
+          <span class="merr-code">ERR_06</span>
+          <h4>No conocer tu régimen tributario</h4>
+        </div>
+        <div class="merr-right">
+          <span class="merr-fix-label">Solución</span>
+          <p>Asesórate con un contador para elegir el régimen que más te conviene según tus ingresos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#contacto" class="btn-primary modal-cta-btn">¿Cometiste alguno? Contáctanos →</a>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL CONSEJOS -->
+<div class="recurso-modal" id="modal-consejos">
+  <div class="modal-backdrop"></div>
+  <div class="modal-box">
+    <button class="modal-close"><i class="fas fa-times"></i></button>
+    <div class="modal-header">
+      <span class="modal-tag tag-consejos">Consejos </span>
+      <h2 class="modal-title">5 Consejos para una contabilidad sana</h2>
+      <p class="modal-subtitle">Las claves para mantener las finanzas de tu empresa en orden.</p>
+    </div>
+    <div class="modal-content">
+      <div class="modal-tip-item">
+        <div class="mtip-num">01</div>
+        <div class="mtip-body">
+          <h4>Equilibra tu flujo de caja</h4>
+          <p>Lleva un registro diario de ingresos y gastos. <strong>Nunca mezcles tus finanzas personales con las de tu empresa</strong>. Un flujo de caja sano es la base de toda decisión financiera.</p>
+        </div>
+      </div>
+      <div class="modal-tip-item">
+        <div class="mtip-num">02</div>
+        <div class="mtip-body">
+          <h4>Realiza un balance general periódico</h4>
+          <p>Registra tus <strong>activos y pasivos</strong> cada trimestre. Conocer el valor real de tu empresa te permite tomar mejores decisiones.</p>
+        </div>
+      </div>
+      <div class="modal-tip-item">
+        <div class="mtip-num">03</div>
+        <div class="mtip-body">
+          <h4>Utiliza un buen software contable</h4>
+          <p>Usa un <strong>programa informático</strong> que se ajuste a las necesidades de tu negocio. Mantén todo en orden y evita errores manuales costosos.</p>
+        </div>
+      </div>
+      <div class="modal-tip-item">
+        <div class="mtip-num">04</div>
+        <div class="mtip-body">
+          <h4>Verifica que la información y el dinero coincidan</h4>
+          <p>Asegúrate de que tus registros <strong>coincidan con tus saldos, cuentas por cobrar y por pagar</strong>. La conciliación mensual evita sorpresas.</p>
+        </div>
+      </div>
+      <div class="modal-tip-item">
+        <div class="mtip-num">05</div>
+        <div class="mtip-body">
+          <h4>Cumple tus obligaciones tributarias</h4>
+          <p>Una <strong>contabilidad clara te permitirá declarar correctamente</strong> y evitar multas o sanciones. Trabaja siempre con fechas y plazos claros.</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#contacto" class="btn-primary modal-cta-btn">Aplica estos consejos con nosotros →</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- GALERÍA 
+<section id="galeria">
+  <div class="galeria-header" id="galeriaHeader">
+    <div class="section-eyebrow">Eventos y actividades</div>
+    <h2>Galería</h2>
+    <p class="s-sub">Asesorías, seminarios y capacitaciones que realizamos para nuestros clientes y la comunidad empresarial.</p>
+  </div>
+  <div class="gtabs">
+    <button class="gtab active" data-filter="todos">Todos</button>
+    <button class="gtab" data-filter="seminarios">Seminarios</button>
+    <button class="gtab" data-filter="asesorias">Asesorías</button>
+    <button class="gtab" data-filter="capacitaciones">Capacitaciones</button>
+    <button class="gtab" data-filter="eventos">Eventos</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+    <div class="gi wide" data-cat="seminarios" data-title="Seminario Tributario 2026" data-sub="Lima · Noviembre 2025"><div class="gi-ph c1" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Seminario Tributario 2025</div><div class="gi-ph-sub" >Piura · Nov 2025</div></div><div class="gi-ov"><div class="gi-title" >Seminario Tributario 2025</div><div class="gi-sub">Piura · Noviembre 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="asesorias" data-title="Asesoría contable empresarial" data-sub="Sesión personalizada"><div class="gi-ph c2"  style="background-image: url('img/conta2.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Asesoría individual</div><div class="gi-ph-sub">Asesoría</div></div><div class="gi-ov"><div class="gi-title">Asesoría contable empresarial</div><div class="gi-sub">Sesión personalizada</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi tall" data-cat="capacitaciones" data-title="Taller: Libros electrónicos SIRE" data-sub="Capacitación grupal 2025"><div class="gi-ph c3" style="background-image: url('img/conta3.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Taller SIRÉ 2025</div><div class="gi-ph-sub">Capacitación</div></div><div class="gi-ov"><div class="gi-title">Taller: Libros SIRE</div><div class="gi-sub">Capacitación grupal 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="eventos" data-title="Aniversario institucional JD Consultores" data-sub="Celebración del equipo"><div class="gi-ph c4" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Aniversario</div><div class="gi-ph-sub">Evento</div></div><div class="gi-ov"><div class="gi-title">Aniversario institucional</div><div class="gi-sub">JD Consultores</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="seminarios" data-title="Charla: Novedades SUNAT 2026" data-sub="Piura · Enero 2026"><div class="gi-ph c5" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Charla SUNAT 2026</div><div class="gi-ph-sub">Seminario</div></div><div class="gi-ov"><div class="gi-title">Charla: Novedades SUNAT 2026</div><div class="gi-sub">Piura · Enero 2026</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi wide" data-cat="capacitaciones" data-title="Capacitación para empresarios MYPE" data-sub="Taller grupal · 2025"><div class="gi-ph c6" style="background-image: url('img/conta4.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Capacitación MYPE</div><div class="gi-ph-sub">Taller</div></div><div class="gi-ov"><div class="gi-title">Capacitación para empresarios MYPE</div><div class="gi-sub">Taller grupal · 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="asesorias" data-title="Reunión de diagnóstico tributario" data-sub="Asesoría empresarial"><div class="gi-ph c7" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Diagnóstico tributario</div><div class="gi-ph-sub">Asesoría</div></div><div class="gi-ov"><div class="gi-title">Reunión de diagnóstico</div><div class="gi-sub">Asesoría empresarial</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="seminarios" data-title="Panel: Planeamiento tributario 2025" data-sub="Mesa de especialistas"><div class="gi-ph c8" style="background-image: url('img/conta5.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Panel de expertos</div><div class="gi-ph-sub">Seminario</div></div><div class="gi-ov"><div class="gi-title">Panel: Planeamiento tributario</div><div class="gi-sub">Mesa de especialistas 2025</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="eventos" data-title="Networking empresarial" data-sub="Encuentro de clientes JD Consultores"><div class="gi-ph c9"  style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Networking</div><div class="gi-ph-sub">Evento</div></div><div class="gi-ov"><div class="gi-title">Networking empresarial</div><div class="gi-sub">Encuentro de clientes</div></div><div class="gi-zoom">⤢</div></div>
+    <div class="gi" data-cat="capacitaciones" data-title="Taller: Cómo constituir tu empresa" data-sub="Emprendedores · 2025"><div class="gi-ph c10" style="background-image: url('img/equipo.jpg'); background-size: cover; background-position: center;"><div class="gi-ph-label">Taller emprendedores</div><div class="gi-ph-sub">Taller</div></div><div class="gi-ov"><div class="gi-title">Taller: Constituye tu empresa</div><div class="gi-sub">Emprendedores · 2025</div></div><div class="gi-zoom">⤢</div></div>
+  </div>
+  <div class="gallery-note"><span></span> Tienes fotos de asesorías, seminarios o eventos recientes? Compártelas y las subimos a la galería con sus títulos y fechas.</div>
+</section>-->
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-bg-circle"></div>
+  <div class="faq-bg-circle-2"></div>
+  <div class="faq-header" id="faqHeader">
+    <div class="faq-eyebrow">PREGUNTAS FRECUENTES</div>
+    <h2>Resolvemos sus <em>Dudas</em></h2>
+    <p>Las preguntas que más nos hacen, respondidas con total transparencia. Si no encuentra lo que busca, nuestro chatbot está a su disposición.</p>
+  </div>
+  <div class="faq-grid" id="faqGrid">
+    <div class="faq-item" data-faq="0"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-coins"></i></div><span class="faq-question-text">¿Cuánto cuesta contratar sus servicios contables?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>El costo varía según el régimen tributario y el nivel de ventas de tu empresa. Por eso, lo más recomendable es concertar una reunión sin compromiso donde analicemos tu caso específico y definamos un presupuesto a tu medida.</p></div></div>
+    <div class="faq-item" data-faq="1"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-building"></i></div><span class="faq-question-text">¿Trabajan con empresas pequeñas o solo con grandes corporaciones?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Trabajamos con empresas de todos los tamaños, desde emprendedores y MYPE hasta grandes corporaciones. Nuestro enfoque es personalizado y nos adaptamos a las necesidades específicas de cada cliente.</p></div></div>
+    <div class="faq-item" data-faq="2"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-chart-line"></i></div><span class="faq-question-text">¿Cuánto tiempo tarda en verse resultados?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Ofrecemos resultados inmediatos en la organización de tu información contable. A partir de nuestros informes de análisis financiero, podrás tomar decisiones estratégicas con datos reales y actualizados, sin esperar mucho tiempo</p></div></div>
+    <div class="faq-item" data-faq="3"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-globe"></i></div><span class="faq-question-text">¿Atienden empresas de cualquier sector económico?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Sí, tenemos experiencia en más de 8 sectores económicos: construcción, comercio, restaurantes, servicios, educación, transporte, agroindustria y salud.</p></div></div>
+    <div class="faq-item" data-faq="4"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-file-alt"></i></div><span class="faq-question-text">¿Qué documentos necesito para comenzar?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Para empezar, solo necesitamos tu Ficha RUC y un reporte tributario actualizado Esto nos permite conocer tu situación actual y generar la información que requieras para presentar.</p></div></div>
+    <div class="faq-item" data-faq="5"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-shield-alt"></i></div><span class="faq-question-text">¿Cómo garantizan la confidencialidad de mi información?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Todo nuestro equipo está sujeto al Código de Ética del Contador Público Peruano, que nos obliga a mantener absoluta reserva sobre la información de nuestros clientes.</p></div></div>
+    <div class="faq-item" data-faq="6"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-user-tie"></i></div><span class="faq-question-text">¿Tengo un contador dedicado o comparto un equipo general?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Asignamos un contador especialista como contacto principal para cada cliente. Él conoce su negocio en profundidad y es tu interlocutor directo.</p></div></div>
+    <div class="faq-item" data-faq="7"><button class="faq-question"><div class="faq-icon-box"><i class="fas fa-mobile-alt"></i></div><span class="faq-question-text">¿Puedo contactarlos fuera del horario de oficina?</span><div class="faq-arrow"><i class="fas fa-chevron-down"></i></div></button><div class="faq-answer"><p>Sí, nuestro equipo atiende consultas vía WhatsApp y correo electrónico. Además, nuestro asistente virtual está disponible 24/7 para responder preguntas básicas.</p></div></div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contacto-inner">
+    <div class="contacto-left" id="contactoLeft">
+      <div class="section-eyebrow">— CONTÁCTANOS</div>
+      <h2>Hablemos de tu empresa</h2>
+      <p> Cuéntanos tu situación y en menos de 24 horas te contactamos.</p>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone-alt"></i></div><div><div class="contact-item-label">Celular / WhatsApp</div><div class="contact-item-value">910 548 118</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><div class="contact-item-label">Correo Electrónico</div><div class="contact-item-value">jdconsultores.estudiocontable@gmail.com</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-clock"></i></div><div><div class="contact-item-label">Horario de Atención</div><div class="contact-item-value">Lunes – Viernes, 8:00 am – 6:00 pm</div></div></div>
+      <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div><div class="contact-item-label">Ubicación</div><div class="contact-item-value">Piura, Perú</div></div></div>
+      <a href="https://wa.me/51910548118?text=Hola,%20me%20gustaría%20una%20asesoría" target="_blank" class="btn-wsp"><i class="fab fa-whatsapp" style="font-size:18px"></i> Escribir por WhatsApp</a>
+    </div>
+    <div class="form-card" id="formCard">
+      <div class="form-header"><div class="form-logo">JD</div><h3>Envíanos un mensaje</h3></div>
+      <p class="form-sub">Respondemos en menos de 24 horas hábiles.</p>
+      <div class="form-row"><div class="form-group"><label>Nombre</label><input type="text" id="formNombre" name="nombre" placeholder="Tu nombre completo"/></div><div class="form-group"><label>Empresa</label><input type="text" id="formEmpresa" name="empresa" placeholder="Nombre de tu empresa"/></div></div>
+      <div class="form-group"><label>Celular / WhatsApp</label><input type="tel" id="formCelular" name="celular" placeholder="9XX XXX XXX"/></div>
+      <div class="form-group"><label>Correo Electrónico</label><input type="email" id="formEmail" name="email" placeholder="tu@correo.com"/></div>
+      <div class="form-group"><label>¿En qué te podemos ayudar?</label><select id="formServicio" name="servicio"><option value="">Selecciona un servicio</option><option>Liquidación de impuestos</option><option>Conciliaciones bancarias</option><option>Presentación sire</option><option>Ingreso inf siscont</option><option>DDJJ</option><option>Presentación ple</option><option>Elaboración proyecciones</option><option>Elaboración planillas</option><option>Otros</option></select></div>
+      <div class="form-group"><label>Mensaje (Opcional)</label><textarea id="formMensaje" name="mensaje" placeholder="Cuéntanos brevemente tu situación..."></textarea></div>
+      <button class="btn-submit" onclick="sendForm()">Enviar mensaje →</button>
+    </div>
+  </div>
+</section>
+
+<footer><p>© 2026 JD Consultores – Estudio Contable. Todos los derechos reservados. | <a href="mailto:jdconsultores.estudiocontable@gmail.com">jdconsultores.estudiocontable@gmail.com</a></p></footer>     
+
+<!-- CHATBOT -->
+<div class="chatbot-float" id="chatbotFloat"><i class="fas fa-comment-dots"></i></div>
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header"><div class="chat-header-info"><div class="chat-avatar"><i class="fas fa-robot"></i></div><div class="chat-header-text"><h4>Asistente JD Consultores</h4><p>En línea ahora</p></div></div><button class="chat-close" id="chatClose"><i class="fas fa-times"></i></button></div>
+  <div class="chat-messages" id="chatMessages"><div class="message bot">¡Hola! 👋 Soy el asistente virtual de <strong>JD Consultores</strong>. ¿En qué puedo ayudarte hoy?</div><div class="suggestions"><button class="suggestion-btn" data-question="servicios">📋 Ver servicios</button><button class="suggestion-btn" data-question="precios">💰 Consultar precios</button><button class="suggestion-btn" data-question="contacto">📞 Contactar asesor</button><button class="suggestion-btn" data-question="faq">❓ Preguntas frecuentes</button></div></div>
+  <div class="chat-input-area"><input type="text" class="chat-input" id="chatInput" placeholder="Escribe tu mensaje..."><button class="chat-send" id="chatSend"><i class="fas fa-paper-plane"></i></button></div>
+</div>
+
+
+<!-- EmailJS Librería -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init("ynQZxYOVxObG6Cxvr");
+</script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
